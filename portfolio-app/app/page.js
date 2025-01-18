@@ -1,10 +1,11 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Hero from "../src/Hero/hero.jsx";
 
-export default function Home() {
+function App() {
   return (
-    <div className={styles.page}>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <Hero />
+    </>
   );
 }
+
+export default App;
