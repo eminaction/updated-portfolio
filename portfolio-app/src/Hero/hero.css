@@ -1,13 +1,28 @@
 .blue-background {
-  width: 70%;
-  background-color: #4831d4;
-  height: 600px;
+  width: 65%;
+  background-color: #ee85b5;
+  height: 800px;
+  z-index: 2;
 }
 .green-background {
-  background-color: #ccf381;
-  width: 30%;
-  height: 600px;
+  background-color: #f39c52;
+  width: 35%;
+  height: 800px;
 }
 .colour-sections {
   display: flex;
+}
+.main-title {
+  margin-top: 200px;
+  margin-left: 150px;
+  font-size: 80px;
+  color: #ccf381;
+}
+.profile-picture {
+  width: 350px;
+  height: 350px;
+  margin-left: 85%;
+  margin-top: -17%;
+  outline: 1px solid white;
+  outline-offset: 15px;
 }

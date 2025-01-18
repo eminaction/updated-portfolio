@@ -5,11 +5,14 @@ export default function Hero() {
     <div>
       <span className="colour-sections">
         <div className="blue-background">
-          <h1>Frontend developer</h1>
+          <h1 className="main-title">
+            Frontend
+            <br />
+            Developer.
+          </h1>
+          <img className="profile-picture" src="/profile.png" />
         </div>
-        <div className="green-background">
-          <h1>Frontend developer</h1>
-        </div>
+        <div className="green-background"></div>
       </span>
     </div>
   );
